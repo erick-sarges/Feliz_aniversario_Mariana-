@@ -177,7 +177,6 @@ body {
 
 
         background-color: #000000e6;
-        padding: 3px;
         color: #ffffff;
         font-size: 30px;
         overflow-wrap: break-word;
@@ -193,7 +192,7 @@ body {
         /* background-size: 100%; */
         /* background-attachment: fixed; */
         background-position: center;
-        background-repeat: no-reapeat;
+        background-repeat:no-repeat;
 
     }
 }
