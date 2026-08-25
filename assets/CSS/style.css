@@ -130,7 +130,7 @@ body {
 
 @media screen and (max-width: 600px) {
 
-      #gameBoard {
+    #gameBoard {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         padding: 10px;
@@ -141,58 +141,60 @@ body {
 
 @media screen and (max-width: 600px) {
 
- .card-back,
-.card-front {
+    .card-back,
+    .card-front {
 
-    width: 96%;
-    height: 96%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-}
+        width: 96%;
+        height: 96%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
 
-@media screen and (max-width: 600px) {
-
-#restart {
-     padding: 10px;
-    font-size: 10px;
-    font-family: "Indie Flower", cursive, Permanente, sans-serif;
-    background-color: #00BFFF;
-    color: #ffffff;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 2px 5px #ffffff;
-    margin-top: 10px;
-    
-
-}
+    }
 }
 
 @media screen and (max-width: 600px) {
 
-#gameOver {
-  
-    
-    background-color: #000000e6;
-    transform: translatex(3px);
-    color: #ffffff;
-    font-size: 30px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+    #restart {
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Indie Flower", cursive, Permanente, sans-serif;
+        background-color: #00BFFF;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0px 2px 5px #ffffff;
+        margin-top: 10px;
 
+
+    }
 }
+
+@media screen and (max-width: 600px) {
+
+    #gameOver {
+
+
+        background-color: #000000e6;
+        transform: translatex(5px);
+        color: #ffffff;
+        font-size: 30px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+    }
 }
+
 @media screen and (max-width: 600px) {
 
     body {
-    background-image: url("../../img/Marca_Beija-Flor_de_Nilópolis.png");
-    /* background-size: 100%; */
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: no-reapeat;
+        background-image: url("../../img/Marca_Beija-Flor_de_Nilópolis.png");
+        /* background-size: 100%; */
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-reapeat;
 
-}
+    }
 }
