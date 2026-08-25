@@ -150,7 +150,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius:5px;
+        border-radius: 5px;
 
     }
 }
@@ -192,7 +192,15 @@ body {
         /* background-size: 100%; */
         background-attachment: fixed;
         background-position: center;
-        background-repeat:no-repeat;
+        background-repeat: no-reapeat;
+        font-family: "Indie Flower", cursive, Permanente, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 20px;
+        background-color: #c7cdd3;
+        flex-wrap: wrap;
 
     }
 }
