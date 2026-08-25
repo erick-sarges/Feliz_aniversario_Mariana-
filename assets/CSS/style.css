@@ -150,7 +150,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius:3.5px;
+        border-radius:5px;
 
     }
 }
@@ -177,8 +177,7 @@ body {
 
 
         background-color: #000000e6;
-        transform: translatex(1px);
-        padding-left: 2px;
+        padding: 3px;
         color: #ffffff;
         font-size: 30px;
         overflow-wrap: break-word;
